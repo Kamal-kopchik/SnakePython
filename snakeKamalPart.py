@@ -1,3 +1,5 @@
+#Kamal's part
+
 import pygame
 import sys
 import random
@@ -11,10 +13,10 @@ class Game():
 
         # set colors 
         self.red = pygame.Color(255, 0, 0)
-        self.green = pygame.Color(0, 255, 0)
+        self.green = pygame.Color(0, 246, 0)
         self.black = pygame.Color(0, 0, 0)
-        self.white = pygame.Color(255, 255, 255)
-        self.brown = pygame.Color(165, 42, 42)
+        self.white = pygame.Color(255, 32, 255)
+        self.brown = pygame.Color(165, 52, 42)
 
         # FPS controller
         self.fps_controller = pygame.time.Clock()
